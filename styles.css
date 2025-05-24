@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.tasks-container {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+.task {
+  background-color: #111;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: gold;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+.tab img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
